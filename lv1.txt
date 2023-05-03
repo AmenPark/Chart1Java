@@ -1,0 +1,7 @@
+6
+'abc'
+r
+'de'
+PRINT
+l
+PRINT

@@ -1,0 +1,10 @@
+9
+shift r 2
+'abc'
+shift l d
+'efg'
+PRINT
+u
+PRINT
+l
+PRINT
