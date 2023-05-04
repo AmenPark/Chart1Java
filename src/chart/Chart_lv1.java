@@ -133,12 +133,4 @@ public class Chart_lv1 implements Chart {
 			System.out.println(Arrays.toString(Arrays.copyOfRange(row, 0, 5)));
 		}
 	}
-	
-	void mode(String s) {
-		// TODO Auto-generated method stub	
-	}
-	
-	void replace(String str1, String str2) {
-		// TODO Auto-generated method stub	
-	}
 }

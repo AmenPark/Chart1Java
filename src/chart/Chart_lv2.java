@@ -68,7 +68,7 @@ public class Chart_lv2 implements Chart {
 	}
 
 	void writeValue(String s) {
-		s = s.replace("\\\\", "\\").replace("\\n", "\n");
+		s = s.replace("\\\\", "\\").replace("\\n", "\n").replace("\\\'", "\'");
 		workRange(new Worker() {
 			@Override
 			void work(Chart c, int x, int y, String... args) {
@@ -197,13 +197,4 @@ public class Chart_lv2 implements Chart {
 			System.out.println(Arrays.toString(Arrays.copyOfRange(row, 0, 5)));
 		}
 	}
-
-	void mode(String s) {
-		// TODO Auto-generated method stub
-	}
-
-	void replace(String str1, String str2) {
-		// TODO Auto-generated method stub
-	}
-
 }
